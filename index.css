@@ -54,7 +54,7 @@ body{
 
 #code {
     position: absolute;
-    width: 200px;
+    width: 600px;
     height: 200px;
     padding-top: 200px;
 }
@@ -62,8 +62,25 @@ body{
 .Proxylink {
     position: absolute;
     padding-top: 500px;
-    color: purple;
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.Myinfo {
+    position: absolute;
+    padding-top: 600px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.Drawing {
+    position: absolute;
+    padding-top: 700px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 @keyframes spin {
     from {
