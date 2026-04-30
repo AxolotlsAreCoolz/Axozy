@@ -45,6 +45,7 @@ body{
     z-index: -5;
     animation: spin 4s linear infinite;
     transform-origin: 305px;
+    pointer-events: none;
 }
 .introduction  {
     color: white;
