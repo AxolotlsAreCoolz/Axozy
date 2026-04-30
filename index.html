@@ -11,18 +11,17 @@
         <img id="code" src="https://res.cloudinary.com/ds0upirvt/image/upload/v1777503230/daily.png?v="></img>
 
         <script>
-            window.onload = function() {
-            const now = new Date();
+           window.onload = function () {
+            
 
-            const version =
-            now.getFullYear() + "-" +
-            (now.getMonth() + 1) + "-" +
-            now.getVarDate() + "-" +
-            now.getHours();
+            const version = Date.now();
 
-            document.getElementById("hourlyImage").src =
+            document.getElementById("code").src =
             "https://res.cloudinary.com/ds0upirvt/image/upload/v1777503230/daily.png?v=" + version;
 
+            console.log("new URL:", document.getElementById("code").src)
+
+        
             };
         </script>
         <a class="Proxylink" href="example.html"><strong>Proxy Link click here</strong></a>
