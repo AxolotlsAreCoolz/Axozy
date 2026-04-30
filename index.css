@@ -42,9 +42,9 @@ body{
     padding-top: 200px;
     width: 600px;
     display: flex;
-    z-index: -1;
+    z-index: -5;
     animation: spin 4s linear infinite;
-    transform-origin: 305px
+    transform-origin: 305px;
 }
 .introduction  {
     color: white;
@@ -57,6 +57,7 @@ body{
     width: 600px;
     height: 200px;
     padding-top: 200px;
+    z-index: 1;
 }
 
 .Proxylink {
@@ -65,6 +66,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    z-index: 1;
 }
 
 .Myinfo {
@@ -73,6 +75,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    z-index: 1;
 }
 
 .Drawing {
@@ -81,6 +84,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    z-index: 1;
 }
 @keyframes spin {
     from {
